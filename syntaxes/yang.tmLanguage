@@ -70,11 +70,11 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.source.yang</string>
+					<string>entity.other.attribute-name.namespace.source.yang</string>
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>((?&lt;=[^\w-]|^))(\w+:\w+)</string>
+			<string>((?&lt;=[^\w-]|^))([A-Za-z0-9_-]+:[A-Za-z0-9_-]+)</string>
 		</dict>
 		<dict>
 			<key>captures</key>

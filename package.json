@@ -2,7 +2,7 @@
     "name": "yang",
     "displayName": "YANG syntax highlighter",
     "description": "Code syntax highlighter for yang modeling language",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "publisher": "marko2276",
     "engines": {
         "vscode": "^0.10.10"
