@@ -1,0 +1,26 @@
+{
+	"name": "yang",
+	"displayName": "yang",
+	"description": "yang modeling ",
+	"version": "0.0.1",
+	"publisher": "marko2276",
+	"engines": {
+		"vscode": "^0.10.10"
+	},
+	"categories": [
+		"Languages"
+	],
+	"contributes": {
+		"languages": [{
+			"id": "yang",
+			"aliases": ["yang", "yang"],
+			"extensions": [".yang"],
+			"configuration": "./yang.configuration.json"
+		}],
+		"grammars": [{
+			"language": "yang",
+			"scopeName": "source.yang",
+			"path": "./syntaxes/yang.tmLanguage"
+		}]
+	}
+}
